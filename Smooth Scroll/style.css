@@ -21,6 +21,7 @@ p {
 .box1, .box2 {
     font-size: 4rem;
     color: #eee;
+    text-align: center;
 }
 
 .box1 {
@@ -38,7 +39,6 @@ p {
 .box2 {
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background: url(img/dog.jpg) center;
@@ -46,7 +46,7 @@ p {
 }
 
 .box2 a {
-    margin-right: 10rem;
+    width: 30%;
 }
 
 a {
@@ -55,6 +55,11 @@ a {
 
 a:visited {
     color: #eee;
+}
+
+a:hover {
+    color: rgb(255, 170, 213);
+    transition: color .5s;
 }
 
 
